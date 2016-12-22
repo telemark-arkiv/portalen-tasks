@@ -1,6 +1,6 @@
 {
   "name": "portalen-tasks",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "All-in-one solution for tasks and portalen",
   "license": "MIT",
   "author": {
@@ -21,7 +21,6 @@
     "coverage": "tap test/*.js --coverage",
     "coveralls": "tap --cov --coverage-report=lcov test/**/*.js && cat coverage/lcov.info | coveralls",
     "start": "node server.js",
-    "isolated": "TASKS_FRONT_ISOLATED=1 node server.js",
     "setup": "npm install",
     "standard-fix": "standard --fix",
     "generate-test-token": "node utils/generate-test-token.js"
