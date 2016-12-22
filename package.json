@@ -1,0 +1,58 @@
+{
+  "name": "portalen-tasks",
+  "version": "1.0.0",
+  "description": "All-in-one solution for tasks and portalen",
+  "license": "MIT",
+  "author": {
+    "name": "Geir Gåsodden",
+    "email": "geir.gasodden@pythonia.no",
+    "url": "https://github.com/zrrrzzt"
+  },
+  "bugs": {
+    "url": "https://github.com/telemark/portalen-tasks/issues"
+  },
+  "homepage": "https://github.com/telemark/portalen-tasks",
+  "main": "service.js",
+  "engines": {
+    "node": ">=4.7.0"
+  },
+  "scripts": {
+    "test": "standard && nsp check && tap --reporter=spec test/**/*.js",
+    "coverage": "tap test/*.js --coverage",
+    "coveralls": "tap --cov --coverage-report=lcov test/**/*.js && cat coverage/lcov.info | coveralls",
+    "start": "node server.js",
+    "isolated": "TASKS_FRONT_ISOLATED=1 node server.js",
+    "setup": "npm install",
+    "standard-fix": "standard --fix",
+    "generate-test-token": "node utils/generate-test-token.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/telemark/portalen-tasks.git"
+  },
+  "devDependencies": {
+    "coveralls": "2.11.15",
+    "nsp": "2.6.2",
+    "standard": "8.6.0",
+    "tap": "8.0.1"
+  },
+  "dependencies": {
+    "boom": "4.2.0",
+    "chairo": "3.0.0",
+    "ews-javascript-api": "0.8.0",
+    "good": "7.1.0",
+    "good-console": "6.2.0",
+    "good-squeeze": "5.0.1",
+    "hapi": "16.0.2",
+    "hapi-auth-jwt2": "7.2.4",
+    "httpntlm": "1.7.3",
+    "jsonwebtoken": "7.2.1",
+    "lokijs": "1.4.2",
+    "normalize-html-whitespace": "0.2.0",
+    "seneca": "3.2.2",
+    "seneca-legacy-logger": "0.1.0",
+    "wreck": "10.0.0",
+    "x-ray": "2.3.1",
+    "xml2js": "0.4.17"
+  }
+}
