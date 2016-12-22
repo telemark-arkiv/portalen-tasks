@@ -15,7 +15,7 @@ module.exports.getUsersTasks = (request, reply) => {
       logger([tag, user, 'error', `${JSON.stringify(error)}`])
       return reply({user: user, data: []})
     } else {
-      logger([tag, user, 'returns data', data.data.length])
+      logger([tag, user, 'finished', data.data.length])
       return reply(data)
     }
   })
