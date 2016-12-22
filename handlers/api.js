@@ -6,15 +6,16 @@ module.exports.getUsersTasks = (request, reply) => {
   const user = request.params.userid
   const pattern = {role: 'tasks', type: 'user', user: user}
   const payload = {}
+  const tag = 'tasks-request'
 
-  logger([`request tasks for ${user}`])
+  logger([tag, user, 'starts'])
 
   request.seneca.act(pattern, payload, (error, data) => {
     if (error) {
-      logger([`request tasks for ${user}`, 'error', `${JSON.stringify(error)}`])
+      logger([tag, user, 'error', `${JSON.stringify(error)}`])
       return reply({user: user, data: []})
     } else {
-      logger([`request tasks for ${user}`, 'returns data', `found ${data.data.length}`])
+      logger([tag, user, 'returns data', data.data.length])
       return reply(data)
     }
   })
