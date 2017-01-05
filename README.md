@@ -13,5 +13,10 @@ Returns tasks for given user
 $ curl -v -H 'Authorization: your.very.long.jwt' http://localhost:8000/user/mememe 
 ```
 
+## Docker
+```bash
+ docker run -d --env-file ./tasks.env -p 8000:8000 --name portalen-tasks telemark/portalen-tasks
+```
+
 ## License
 [MIT](LICENSE)
