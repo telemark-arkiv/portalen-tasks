@@ -30,7 +30,7 @@
     "url": "git://github.com/telemark/portalen-tasks.git"
   },
   "devDependencies": {
-    "coveralls": "2.11.16",
+    "coveralls": "2.13.0",
     "nsp": "2.6.3",
     "standard": "10.0.0",
     "tap": "10.2.0"
