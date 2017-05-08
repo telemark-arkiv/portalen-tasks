@@ -50,7 +50,7 @@
     "normalize-html-whitespace": "0.2.0",
     "seneca": "3.2.2",
     "seneca-legacy-logger": "0.1.0",
-    "wreck": "12.1.0",
+    "wreck": "12.2.0",
     "x-ray": "2.3.2",
     "xml2js": "0.4.17"
   }
