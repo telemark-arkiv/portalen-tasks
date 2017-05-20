@@ -3,6 +3,7 @@
   "version": "1.0.20",
   "description": "All-in-one solution for tasks and portalen",
   "license": "MIT",
+  "private": true,
   "author": {
     "name": "Geir Gåsodden",
     "email": "geir.gasodden@pythonia.no",
