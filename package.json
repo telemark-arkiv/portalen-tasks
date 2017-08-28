@@ -53,6 +53,6 @@
     "seneca-legacy-logger": "0.1.2",
     "wreck": "12.2.3",
     "x-ray": "2.3.2",
-    "xml2js": "0.4.17"
+    "xml2js": "0.4.18"
   }
 }
