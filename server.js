@@ -14,7 +14,7 @@ const Good = require('good')
 const validateAPI = require('./lib/validate-api')
 const tasksUser = require('./lib/plugins/tasks-user')
 const tasksCompilo = require('./lib/plugins/tasks-compilo')
-const tasksVisma = require('./lib/plugins/tasks-visma')
+// const tasksVisma = require('./lib/plugins/tasks-visma')
 // const tasksExchange = require('./lib/plugins/tasks-exchange')
 // const tasksMail = require('./lib/plugins/tasks-mail')
 
@@ -70,7 +70,7 @@ const seneca = server.seneca
 
 seneca.use(tasksUser)
 seneca.use(tasksCompilo)
-seneca.use(tasksVisma)
+// seneca.use(tasksVisma)
 // seneca.use(tasksExchange)
 // seneca.use(tasksMail)
 
