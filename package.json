@@ -49,7 +49,7 @@
     "jsonwebtoken": "8.1.0",
     "lokijs": "1.5.1",
     "normalize-html-whitespace": "0.2.0",
-    "seneca": "3.4.2",
+    "seneca": "3.4.3",
     "seneca-legacy-logger": "0.1.2",
     "wreck": "13.0.3",
     "x-ray": "2.3.2",
