@@ -44,7 +44,7 @@
     "good-console": "6.4.1",
     "good-squeeze": "5.0.2",
     "hapi": "17.1.1",
-    "hapi-auth-jwt2": "7.3.0",
+    "hapi-auth-jwt2": "7.4.0",
     "httpntlm": "1.7.5",
     "jsonwebtoken": "8.1.0",
     "lokijs": "1.5.1",
