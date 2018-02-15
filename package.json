@@ -15,7 +15,7 @@
   "homepage": "https://github.com/telemark/portalen-tasks",
   "main": "service.js",
   "engines": {
-    "node": ">=4.7.0"
+    "node": ">=4.8.7"
   },
   "scripts": {
     "test": "standard && nsp check && tap --reporter=spec test/**/*.js",
@@ -24,7 +24,8 @@
     "start": "node server.js",
     "setup": "npm install",
     "standard-fix": "standard --fix",
-    "generate-test-token": "node utils/generate-test-token.js"
+    "generate-test-token": "node utils/generate-test-token.js",
+    "refresh": "rm -rf node_modules && npm install"
   },
   "repository": {
     "type": "git",
@@ -32,18 +33,18 @@
   },
   "devDependencies": {
     "coveralls": "3.0.0",
-    "nsp": "3.1.0",
+    "nsp": "2.8.0",
     "standard": "10.0.3",
-    "tap": "10.3.2"
+    "tap": "11.1.0"
   },
   "dependencies": {
     "boom": "7.1.1",
     "chairo": "3.0.0",
     "ews-javascript-api": "0.9.2",
-    "good": "8.0.0-rc1",
+    "good": "7.3.0",
     "good-console": "7.0.1",
     "good-squeeze": "5.0.2",
-    "hapi": "17.1.1",
+    "hapi": "16.6.2",
     "hapi-auth-jwt2": "7.4.1",
     "httpntlm": "1.7.5",
     "jsonwebtoken": "8.1.1",
@@ -53,6 +54,6 @@
     "seneca-legacy-logger": "0.1.2",
     "wreck": "14.0.2",
     "x-ray": "2.3.2",
-    "xml2js": "0.4.18"
+    "xml2js": "0.4.19"
   }
 }

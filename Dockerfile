@@ -1,14 +1,5 @@
-###########################################################
-#
-# Dockerfile for tasks-front
-#
-###########################################################
-
-# Setting the base to nodejs 8.5.0
-FROM node:8.5.0-alpine
-
-# Maintainer
-MAINTAINER Geir Gåsodden
+# Setting the base to nodejs 4.8.7
+FROM node:4.8.7-alpine
 
 #### Begin setup ####
 
