@@ -47,7 +47,7 @@
     "hapi-auth-jwt2": "7.4.1",
     "httpntlm": "1.7.5",
     "jsonwebtoken": "8.1.1",
-    "lokijs": "1.5.1",
+    "lokijs": "1.5.2",
     "normalize-html-whitespace": "0.2.0",
     "seneca": "3.4.3",
     "seneca-legacy-logger": "0.1.2",
